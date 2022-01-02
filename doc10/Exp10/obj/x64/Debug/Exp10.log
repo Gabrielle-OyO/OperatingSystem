@@ -1,0 +1,33 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.80.129'
+  Starting remote build
+  Compiling sources:
+  task5.c
+C:\Users\12620\Desktop\Exp10\task5.c(36,44): warning : conversion from ‘int’ to ‘Uint8’ {aka ‘const unsigned char’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(36,44): warning :    36 |         color = SDL_MapRGB(screen->format, r, g, b);
+C:\Users\12620\Desktop\Exp10\task5.c(36,44): warning :       |                                            ^
+C:\Users\12620\Desktop\Exp10\task5.c(36,47): warning : conversion from ‘int’ to ‘Uint8’ {aka ‘const unsigned char’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(36,47): warning :    36 |         color = SDL_MapRGB(screen->format, r, g, b);
+C:\Users\12620\Desktop\Exp10\task5.c(36,47): warning :       |                                               ^
+C:\Users\12620\Desktop\Exp10\task5.c(36,50): warning : conversion from ‘int’ to ‘Uint8’ {aka ‘const unsigned char’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(36,50): warning :    36 |         color = SDL_MapRGB(screen->format, r, g, b);
+C:\Users\12620\Desktop\Exp10\task5.c(36,50): warning :       |                                                  ^
+C:\Users\12620\Desktop\Exp10\task5.c(37,29): warning : conversion from ‘int’ to ‘Sint16’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(37,29): warning :    37 |         Draw_Circle(screen, ox, oy, i, color);
+C:\Users\12620\Desktop\Exp10\task5.c(37,29): warning :       |                             ^~
+C:\Users\12620\Desktop\Exp10\task5.c(37,33): warning : conversion from ‘int’ to ‘Sint16’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(37,33): warning :    37 |         Draw_Circle(screen, ox, oy, i, color);
+C:\Users\12620\Desktop\Exp10\task5.c(37,33): warning :       |                                 ^~
+C:\Users\12620\Desktop\Exp10\task5.c(37,37): warning : conversion from ‘int’ to ‘Uint16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(37,37): warning :    37 |         Draw_Circle(screen, ox, oy, i, color);
+C:\Users\12620\Desktop\Exp10\task5.c(37,37): warning :       |                                     ^
+C:\Users\12620\Desktop\Exp10\task5.c(40,29): warning : conversion from ‘int’ to ‘Sint16’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(40,29): warning :    40 |         Draw_Circle(screen, ox, oy, i, black);
+C:\Users\12620\Desktop\Exp10\task5.c(40,29): warning :       |                             ^~
+C:\Users\12620\Desktop\Exp10\task5.c(40,33): warning : conversion from ‘int’ to ‘Sint16’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(40,33): warning :    40 |         Draw_Circle(screen, ox, oy, i, black);
+C:\Users\12620\Desktop\Exp10\task5.c(40,33): warning :       |                                 ^~
+C:\Users\12620\Desktop\Exp10\task5.c(40,37): warning : conversion from ‘int’ to ‘Uint16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp10\task5.c(40,37): warning :    40 |         Draw_Circle(screen, ox, oy, i, black);
+C:\Users\12620\Desktop\Exp10\task5.c(40,37): warning :       |                                     ^

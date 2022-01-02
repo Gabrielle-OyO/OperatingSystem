@@ -1,0 +1,44 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.80.129'
+  Starting remote build
+  Compiling sources:
+  task2.c
+C:\Users\12620\Desktop\Exp12\task2.c(60,12): warning : implicit declaration of function ‘SDL_DisplayFormat’; did you mean ‘SDL_AllocFormat’? [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp12\task2.c(60,12): warning :    60 |  surface = SDL_DisplayFormat(image); SDL_FreeSurface(image);
+C:\Users\12620\Desktop\Exp12\task2.c(60,12): warning :       |            ^~~~~~~~~~~~~~~~~
+C:\Users\12620\Desktop\Exp12\task2.c(60,12): warning :       |            SDL_AllocFormat
+C:\Users\12620\Desktop\Exp12\task2.c(60,10): warning : assignment to ‘SDL_Surface *’ {aka ‘struct SDL_Surface *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+C:\Users\12620\Desktop\Exp12\task2.c(60,10): warning :    60 |  surface = SDL_DisplayFormat(image); SDL_FreeSurface(image);
+C:\Users\12620\Desktop\Exp12\task2.c(60,10): warning :       |          ^
+C:\Users\12620\Desktop\Exp12\task2.c(92,2): warning : implicit declaration of function ‘SDL_UpdateRect’; did you mean ‘SDL_UpdateTexture’? [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp12\task2.c(92,2): warning :    92 |  SDL_UpdateRect(screen, 0, 0, 0, 0);
+C:\Users\12620\Desktop\Exp12\task2.c(92,2): warning :       |  ^~~~~~~~~~~~~~
+C:\Users\12620\Desktop\Exp12\task2.c(92,2): warning :       |  SDL_UpdateTexture
+C:\Users\12620\Desktop\Exp12\task2.c(149,6): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\12620\Desktop\Exp12\task2.c(149,6): warning :   149 |  int i;
+C:\Users\12620\Desktop\Exp12\task2.c(149,6): warning :       |      ^
+C:\Users\12620\Desktop\Exp12\task2.c(244,2): warning : implicit declaration of function ‘SDL_UpdateRects’; did you mean ‘SDL_UpdateTexture’? [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp12\task2.c(244,2): warning :   244 |  SDL_UpdateRects(screen, numUpdates, dstUpdate);
+C:\Users\12620\Desktop\Exp12\task2.c(244,2): warning :       |  ^~~~~~~~~~~~~~~
+C:\Users\12620\Desktop\Exp12\task2.c(244,2): warning :       |  SDL_UpdateTexture
+C:\Users\12620\Desktop\Exp12\task2.c(271,14): warning : conversion from ‘double’ to ‘Uint32’ {aka ‘unsigned int’} may change value [-Wfloat-conversion]
+C:\Users\12620\Desktop\Exp12\task2.c(271,14): warning :   271 |  next_tick = this_tick + (1000.0 / FRAME_RATES);//��һ֡
+C:\Users\12620\Desktop\Exp12\task2.c(271,14): warning :       |              ^~~~~~~~~
+C:\Users\12620\Desktop\Exp12\task2.c(316,10): warning : implicit declaration of function ‘SDL_GetKeyState’; did you mean ‘SDL_GetKeyName’? [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp12\task2.c(316,10): warning :   316 |   keys = SDL_GetKeyState(NULL);
+C:\Users\12620\Desktop\Exp12\task2.c(316,10): warning :       |          ^~~~~~~~~~~~~~~
+C:\Users\12620\Desktop\Exp12\task2.c(316,10): warning :       |          SDL_GetKeyName
+C:\Users\12620\Desktop\Exp12\task2.c(316,8): warning : assignment to ‘Uint8 *’ {aka ‘unsigned char *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+C:\Users\12620\Desktop\Exp12\task2.c(316,8): warning :   316 |   keys = SDL_GetKeyState(NULL);
+C:\Users\12620\Desktop\Exp12\task2.c(316,8): warning :       |        ^
+C:\Users\12620\Desktop\Exp12\task2.c(484,11): warning : implicit declaration of function ‘SDL_SetVideoMode’; did you mean ‘SDL_GetVideoDriver’? [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp12\task2.c(484,11): warning :   484 |  screen = SDL_SetVideoMode(600, 480, 0, SDL_SWSURFACE);
+C:\Users\12620\Desktop\Exp12\task2.c(484,11): warning :       |           ^~~~~~~~~~~~~~~~
+C:\Users\12620\Desktop\Exp12\task2.c(484,11): warning :       |           SDL_GetVideoDriver
+C:\Users\12620\Desktop\Exp12\task2.c(484,9): warning : assignment to ‘SDL_Surface *’ {aka ‘struct SDL_Surface *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+C:\Users\12620\Desktop\Exp12\task2.c(484,9): warning :   484 |  screen = SDL_SetVideoMode(600, 480, 0, SDL_SWSURFACE);
+C:\Users\12620\Desktop\Exp12\task2.c(484,9): warning :       |         ^
+C:\Users\12620\Desktop\Exp12\task2.c(491,8): warning : conversion from ‘time_t’ {aka ‘long int’} to ‘unsigned int’ may change value [-Wconversion]
+C:\Users\12620\Desktop\Exp12\task2.c(491,8): warning :   491 |  srand(time(NULL));
+C:\Users\12620\Desktop\Exp12\task2.c(491,8): warning :       |        ^~~~~~~~~~

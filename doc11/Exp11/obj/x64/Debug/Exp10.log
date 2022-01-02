@@ -1,0 +1,20 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.80.129'
+  Starting remote build
+  Compiling sources:
+  task4.c
+C:\Users\12620\Desktop\Exp10\task4.c(20,11): warning : implicit declaration of function ‘SDL_SetVideoMode’; did you mean ‘SDL_GetVideoDriver’? [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp10\task4.c(20,11): warning :    20 |  screen = SDL_SetVideoMode(640, 480, 16, SDL_SWSURFACE);
+C:\Users\12620\Desktop\Exp10\task4.c(20,11): warning :       |           ^~~~~~~~~~~~~~~~
+C:\Users\12620\Desktop\Exp10\task4.c(20,11): warning :       |           SDL_GetVideoDriver
+C:\Users\12620\Desktop\Exp10\task4.c(20,9): warning : assignment to ‘SDL_Surface *’ {aka ‘struct SDL_Surface *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+C:\Users\12620\Desktop\Exp10\task4.c(20,9): warning :    20 |  screen = SDL_SetVideoMode(640, 480, 16, SDL_SWSURFACE);
+C:\Users\12620\Desktop\Exp10\task4.c(20,9): warning :       |         ^
+C:\Users\12620\Desktop\Exp10\task4.c(44,2): warning : implicit declaration of function ‘SDL_UpdateRect’; did you mean ‘SDL_UpdateTexture’? [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp10\task4.c(44,2): warning :    44 |  SDL_UpdateRect(screen, 0, 0, image->w, image->h);
+C:\Users\12620\Desktop\Exp10\task4.c(44,2): warning :       |  ^~~~~~~~~~~~~~
+C:\Users\12620\Desktop\Exp10\task4.c(44,2): warning :       |  SDL_UpdateTexture
+C:\Users\12620\Desktop\Exp10\task4.c(100,4): warning : implicit declaration of function ‘SDL_Flip’ [-Wimplicit-function-declaration]
+C:\Users\12620\Desktop\Exp10\task4.c(100,4): warning :   100 |    SDL_Flip(screen);
+C:\Users\12620\Desktop\Exp10\task4.c(100,4): warning :       |    ^~~~~~~~
